@@ -1,17 +1,29 @@
-export function authMiddleware(req,res,next){
-const key = req.headers["x-api-key"];
+import jwt from 'jsonwebtoken';
 
-if(!key){
-return res.status(401).json({error:"missing api key"});
+const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
+
+export function authMiddleware(req, res, next) {
+  try {
+    const token = req.headers.authorization?.replace('Bearer ', '');
+
+    if (!token) {
+      return res.status(401).json({ error: 'No token provided' });
+    }
+
+    const decoded = jwt.verify(token, JWT_SECRET);
+    req.user = decoded;
+    next();
+  } catch (error) {
+    res.status(401).json({ error: 'Invalid token' });
+  }
 }
 
-// mock tenant resolution
-req.tenant = {
-id: "tenant_demo",
-plan: "pro",
-limit: 10000,
-used: 0
-};
-
-next();
+export function generateToken(userId, tenantId) {
+  return jwt.sign(
+    { userId, tenantId, iat: Date.now() },
+    JWT_SECRET,
+    { expiresIn: '24h' }
+  );
 }
+
+export default authMiddleware;

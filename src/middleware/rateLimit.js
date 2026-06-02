@@ -1,27 +1,24 @@
-const store = new Map();
+import rateLimit from 'express-rate-limit';
 
-export function rateLimit(req,res,next){
-const tenant = req.tenant;
-const plan = tenant.plan || "free";
-
-const key = tenant.id;
-
-const current = store.get(key) || 0;
-
-const limit = {
-free: 100,
-pro: 10000,
-enterprise: 100000
-}[plan];
-
-if(current >= limit){
-return res.status(429).json({
-error:"rate limit exceeded",
-plan
+export const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutos
+  max: 100, // limite de 100 requests por window
+  message: 'Muitas requisições deste IP, tente novamente depois.',
+  standardHeaders: true,
+  legacyHeaders: false
 });
-}
 
-store.set(key, current + 1);
+export const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 5, // máximo 5 tentativas de login
+  message: 'Muitas tentativas de login, tente novamente depois.',
+  skipSuccessfulRequests: true
+});
 
-next();
-}
+export const aiLimiter = rateLimit({
+  windowMs: 60 * 1000, // 1 minuto
+  max: 10, // máximo 10 requests de IA por minuto
+  message: 'Limite de requisições de IA atingido'
+});
+
+export default apiLimiter;
