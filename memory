@@ -1,0 +1,11 @@
+export const db = {
+  companies: [
+    { id: 1, name: "Empresa Demo", credits: 100000 }
+  ],
+
+  apiKeys: [
+    { key: "empresa_demo_key_123", companyId: 1, active: true }
+  ],
+
+  logs: []
+};

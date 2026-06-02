@@ -1,0 +1,1077 @@
+[
+  {
+    "file": "ai-router\\index.js",
+    "lines": 22,
+    "bytes": 399
+  },
+  {
+    "file": "ai-router\\providers\\gemini.js",
+    "lines": 8,
+    "bytes": 133
+  },
+  {
+    "file": "ai-router\\providers\\openai.js",
+    "lines": 8,
+    "bytes": 134
+  },
+  {
+    "file": "ai-router\\router.js",
+    "lines": 21,
+    "bytes": 375
+  },
+  {
+    "file": "billing\\engine.js",
+    "lines": 56,
+    "bytes": 1206
+  },
+  {
+    "file": "billing\\index.js",
+    "lines": 9,
+    "bytes": 138
+  },
+  {
+    "file": "billing.js",
+    "lines": 9,
+    "bytes": 218
+  },
+  {
+    "file": "controllers\\adminController.js",
+    "lines": 48,
+    "bytes": 911
+  },
+  {
+    "file": "controllers\\gateway.controller.js",
+    "lines": 25,
+    "bytes": 609
+  },
+  {
+    "file": "core\\aiRouter.js",
+    "lines": 16,
+    "bytes": 358
+  },
+  {
+    "file": "core\\auth.js",
+    "lines": 16,
+    "bytes": 344
+  },
+  {
+    "file": "core\\credits.js",
+    "lines": 18,
+    "bytes": 346
+  },
+  {
+    "file": "core\\db.js",
+    "lines": 5,
+    "bytes": 110
+  },
+  {
+    "file": "core\\router.js",
+    "lines": 23,
+    "bytes": 445
+  },
+  {
+    "file": "dashboard\\api.js",
+    "lines": 10,
+    "bytes": 192
+  },
+  {
+    "file": "dashboard\\metrics.js",
+    "lines": 13,
+    "bytes": 223
+  },
+  {
+    "file": "data\\agents.json",
+    "lines": 2,
+    "bytes": 4
+  },
+  {
+    "file": "data\\executions.json",
+    "lines": 2,
+    "bytes": 4
+  },
+  {
+    "file": "data\\projects.json",
+    "lines": 2,
+    "bytes": 4
+  },
+  {
+    "file": "db.js",
+    "lines": 1,
+    "bytes": 0
+  },
+  {
+    "file": "db.json",
+    "lines": 10,
+    "bytes": 129
+  },
+  {
+    "file": "engine\\billingEngine.js",
+    "lines": 31,
+    "bytes": 310
+  },
+  {
+    "file": "engine\\orchestrator.js",
+    "lines": 111,
+    "bytes": 1052
+  },
+  {
+    "file": "engine\\requestId.js",
+    "lines": 11,
+    "bytes": 135
+  },
+  {
+    "file": "history.json",
+    "lines": 33,
+    "bytes": 1371
+  },
+  {
+    "file": "index.js",
+    "lines": 49,
+    "bytes": 1092
+  },
+  {
+    "file": "middleware\\apiKeyMiddleware.js",
+    "lines": 55,
+    "bytes": 576
+  },
+  {
+    "file": "middleware\\auth.js",
+    "lines": 1,
+    "bytes": 0
+  },
+  {
+    "file": "middleware\\authTenant.js",
+    "lines": 29,
+    "bytes": 657
+  },
+  {
+    "file": "middleware\\billing.js",
+    "lines": 37,
+    "bytes": 552
+  },
+  {
+    "file": "middleware\\quotaMiddleware.js",
+    "lines": 15,
+    "bytes": 126
+  },
+  {
+    "file": "middleware\\rateLimit.js",
+    "lines": 20,
+    "bytes": 424
+  },
+  {
+    "file": "middleware\\requestLogger.js",
+    "lines": 13,
+    "bytes": 283
+  },
+  {
+    "file": "middlewares\\requestLogger.js",
+    "lines": 13,
+    "bytes": 283
+  },
+  {
+    "file": "package-lock.json",
+    "lines": 1154,
+    "bytes": 41987
+  },
+  {
+    "file": "package.json",
+    "lines": 28,
+    "bytes": 548
+  },
+  {
+    "file": "prisma\\schema.prisma",
+    "lines": 39,
+    "bytes": 729
+  },
+  {
+    "file": "providers\\providerClient.js",
+    "lines": 16,
+    "bytes": 362
+  },
+  {
+    "file": "routes\\auth.routes.js",
+    "lines": 23,
+    "bytes": 390
+  },
+  {
+    "file": "routes\\run.routes.js",
+    "lines": 43,
+    "bytes": 929
+  },
+  {
+    "file": "routes\\tenant.routes.js",
+    "lines": 14,
+    "bytes": 253
+  },
+  {
+    "file": "saas-final-patch.js",
+    "lines": 150,
+    "bytes": 3446
+  },
+  {
+    "file": "saas-patch.js",
+    "lines": 129,
+    "bytes": 2947
+  },
+  {
+    "file": "seed.js",
+    "lines": 45,
+    "bytes": 456
+  },
+  {
+    "file": "server.js",
+    "lines": 14,
+    "bytes": 294
+  },
+  {
+    "file": "services\\ai.service.js",
+    "lines": 1,
+    "bytes": 0
+  },
+  {
+    "file": "services\\aiRouter.js",
+    "lines": 86,
+    "bytes": 998
+  },
+  {
+    "file": "services\\aiService.js",
+    "lines": 5,
+    "bytes": 151
+  },
+  {
+    "file": "services\\app.js",
+    "lines": 26,
+    "bytes": 535
+  },
+  {
+    "file": "services\\billing.service.js",
+    "lines": 9,
+    "bytes": 156
+  },
+  {
+    "file": "services\\database.js",
+    "lines": 26,
+    "bytes": 256
+  },
+  {
+    "file": "services\\modelRouter.js",
+    "lines": 17,
+    "bytes": 367
+  },
+  {
+    "file": "services\\orchestrator.service.js",
+    "lines": 22,
+    "bytes": 466
+  },
+  {
+    "file": "services\\wallet.service.js",
+    "lines": 18,
+    "bytes": 398
+  },
+  {
+    "file": "setup-ai-router.js",
+    "lines": 101,
+    "bytes": 2171
+  },
+  {
+    "file": "src\\analytics\\analytics.engine.js",
+    "lines": 32,
+    "bytes": 400
+  },
+  {
+    "file": "src\\api\\auth.js",
+    "lines": 18,
+    "bytes": 220
+  },
+  {
+    "file": "src\\api\\billing.js",
+    "lines": 10,
+    "bytes": 186
+  },
+  {
+    "file": "src\\api\\dashboard.js",
+    "lines": 15,
+    "bytes": 225
+  },
+  {
+    "file": "src\\api\\execute.js",
+    "lines": 17,
+    "bytes": 310
+  },
+  {
+    "file": "src\\api\\logs.js",
+    "lines": 7,
+    "bytes": 124
+  },
+  {
+    "file": "src\\auth\\jwt.js",
+    "lines": 15,
+    "bytes": 263
+  },
+  {
+    "file": "src\\auth\\middleware.js",
+    "lines": 20,
+    "bytes": 370
+  },
+  {
+    "file": "src\\autonomy\\balanceEngine.js",
+    "lines": 10,
+    "bytes": 248
+  },
+  {
+    "file": "src\\autonomy\\core.js",
+    "lines": 17,
+    "bytes": 396
+  },
+  {
+    "file": "src\\autonomy\\evolutionEngine.js",
+    "lines": 18,
+    "bytes": 237
+  },
+  {
+    "file": "src\\autonomy\\fitnessFunction.js",
+    "lines": 8,
+    "bytes": 119
+  },
+  {
+    "file": "src\\autonomy\\globalBehavior.js",
+    "lines": 8,
+    "bytes": 144
+  },
+  {
+    "file": "src\\autonomy\\reorganizationLoop.js",
+    "lines": 6,
+    "bytes": 129
+  },
+  {
+    "file": "src\\autopilot\\decomposer.js",
+    "lines": 9,
+    "bytes": 248
+  },
+  {
+    "file": "src\\autopilot\\diagnostic.js",
+    "lines": 28,
+    "bytes": 613
+  },
+  {
+    "file": "src\\autopilot\\index.js",
+    "lines": 22,
+    "bytes": 562
+  },
+  {
+    "file": "src\\autopilot\\simulator.js",
+    "lines": 8,
+    "bytes": 192
+  },
+  {
+    "file": "src\\autopilot\\strategyEngine.js",
+    "lines": 18,
+    "bytes": 540
+  },
+  {
+    "file": "src\\autopilot\\synthesizer.js",
+    "lines": 12,
+    "bytes": 215
+  },
+  {
+    "file": "src\\billing\\plans.js",
+    "lines": 18,
+    "bytes": 201
+  },
+  {
+    "file": "src\\billing\\stripe.js",
+    "lines": 14,
+    "bytes": 240
+  },
+  {
+    "file": "src\\cache\\cache.js",
+    "lines": 14,
+    "bytes": 174
+  },
+  {
+    "file": "src\\config\\flags.js",
+    "lines": 19,
+    "bytes": 303
+  },
+  {
+    "file": "src\\config\\plans.js",
+    "lines": 16,
+    "bytes": 136
+  },
+  {
+    "file": "src\\control\\approvalEngine.js",
+    "lines": 7,
+    "bytes": 130
+  },
+  {
+    "file": "src\\control\\auditLog.js",
+    "lines": 16,
+    "bytes": 202
+  },
+  {
+    "file": "src\\control\\humanOverride.js",
+    "lines": 9,
+    "bytes": 136
+  },
+  {
+    "file": "src\\control\\index.js",
+    "lines": 22,
+    "bytes": 560
+  },
+  {
+    "file": "src\\control\\riskGate.js",
+    "lines": 12,
+    "bytes": 229
+  },
+  {
+    "file": "src\\control\\roles.js",
+    "lines": 6,
+    "bytes": 149
+  },
+  {
+    "file": "src\\control\\workflow.js",
+    "lines": 8,
+    "bytes": 134
+  },
+  {
+    "file": "src\\controllers\\dashboard.controller.js",
+    "lines": 80,
+    "bytes": 1569
+  },
+  {
+    "file": "src\\controllers\\projection.controller.js",
+    "lines": 41,
+    "bytes": 493
+  },
+  {
+    "file": "src\\controllers\\providers.controller.js",
+    "lines": 37,
+    "bytes": 443
+  },
+  {
+    "file": "src\\controllers\\realtime.controller.js",
+    "lines": 34,
+    "bytes": 413
+  },
+  {
+    "file": "src\\core\\db.js",
+    "lines": 34,
+    "bytes": 344
+  },
+  {
+    "file": "src\\core\\errors.js",
+    "lines": 16,
+    "bytes": 146
+  },
+  {
+    "file": "src\\database\\prisma.backup.js",
+    "lines": 4,
+    "bytes": 94
+  },
+  {
+    "file": "src\\database\\prisma.js",
+    "lines": 5,
+    "bytes": 108
+  },
+  {
+    "file": "src\\decision\\aggregator.js",
+    "lines": 22,
+    "bytes": 294
+  },
+  {
+    "file": "src\\decision\\decisionEngine.js",
+    "lines": 19,
+    "bytes": 386
+  },
+  {
+    "file": "src\\decision\\ensemble.js",
+    "lines": 25,
+    "bytes": 596
+  },
+  {
+    "file": "src\\decision\\intent.js",
+    "lines": 21,
+    "bytes": 426
+  },
+  {
+    "file": "src\\decision\\scoring.js",
+    "lines": 9,
+    "bytes": 273
+  },
+  {
+    "file": "src\\economy\\decisionEngine.js",
+    "lines": 22,
+    "bytes": 354
+  },
+  {
+    "file": "src\\economy\\riskModel.js",
+    "lines": 10,
+    "bytes": 194
+  },
+  {
+    "file": "src\\economy\\scenarios.js",
+    "lines": 8,
+    "bytes": 214
+  },
+  {
+    "file": "src\\economy\\simulator.js",
+    "lines": 19,
+    "bytes": 386
+  },
+  {
+    "file": "src\\economy\\valueEngine.js",
+    "lines": 17,
+    "bytes": 370
+  },
+  {
+    "file": "src\\economyLayer\\exchangeEngine.js",
+    "lines": 11,
+    "bytes": 207
+  },
+  {
+    "file": "src\\economyLayer\\networkEffect.js",
+    "lines": 13,
+    "bytes": 220
+  },
+  {
+    "file": "src\\economyLayer\\performanceRanking.js",
+    "lines": 13,
+    "bytes": 291
+  },
+  {
+    "file": "src\\economyLayer\\strategyMarket.js",
+    "lines": 16,
+    "bytes": 269
+  },
+  {
+    "file": "src\\economyLayer\\tokenization.js",
+    "lines": 10,
+    "bytes": 240
+  },
+  {
+    "file": "src\\economyLayer\\valueEngine.js",
+    "lines": 12,
+    "bytes": 211
+  },
+  {
+    "file": "src\\ecosystem\\anomalyDetector.js",
+    "lines": 13,
+    "bytes": 190
+  },
+  {
+    "file": "src\\ecosystem\\config\\autonomyEngine.js",
+    "lines": 4,
+    "bytes": 73
+  },
+  {
+    "file": "src\\ecosystem\\config\\decisionPolicy.js",
+    "lines": 12,
+    "bytes": 273
+  },
+  {
+    "file": "src\\ecosystem\\config\\economyMapper.js",
+    "lines": 10,
+    "bytes": 124
+  },
+  {
+    "file": "src\\ecosystem\\config\\globalConfig.js",
+    "lines": 23,
+    "bytes": 281
+  },
+  {
+    "file": "src\\ecosystem\\config\\i18nEngine.js",
+    "lines": 10,
+    "bytes": 163
+  },
+  {
+    "file": "src\\ecosystem\\config\\tenantProfile.js",
+    "lines": 13,
+    "bytes": 188
+  },
+  {
+    "file": "src\\ecosystem\\diagnosticEngine.js",
+    "lines": 12,
+    "bytes": 280
+  },
+  {
+    "file": "src\\ecosystem\\engine.js",
+    "lines": 32,
+    "bytes": 679
+  },
+  {
+    "file": "src\\ecosystem\\metaLearning.js",
+    "lines": 11,
+    "bytes": 186
+  },
+  {
+    "file": "src\\ecosystem\\observer.js",
+    "lines": 9,
+    "bytes": 194
+  },
+  {
+    "file": "src\\ecosystem\\selfRepair.js",
+    "lines": 15,
+    "bytes": 298
+  },
+  {
+    "file": "src\\execution\\actionBuilder.js",
+    "lines": 14,
+    "bytes": 322
+  },
+  {
+    "file": "src\\execution\\connectors.js",
+    "lines": 21,
+    "bytes": 293
+  },
+  {
+    "file": "src\\execution\\engine.js",
+    "lines": 22,
+    "bytes": 333
+  },
+  {
+    "file": "src\\execution\\index.js",
+    "lines": 15,
+    "bytes": 372
+  },
+  {
+    "file": "src\\execution\\verifier.js",
+    "lines": 7,
+    "bytes": 111
+  },
+  {
+    "file": "src\\generated\\prisma\\default.js",
+    "lines": 1,
+    "bytes": 36
+  },
+  {
+    "file": "src\\generated\\prisma\\edge.js",
+    "lines": 202,
+    "bytes": 10149
+  },
+  {
+    "file": "src\\generated\\prisma\\index-browser.js",
+    "lines": 193,
+    "bytes": 6836
+  },
+  {
+    "file": "src\\generated\\prisma\\index.js",
+    "lines": 223,
+    "bytes": 10786
+  },
+  {
+    "file": "src\\generated\\prisma\\package.json",
+    "lines": 97,
+    "bytes": 2601
+  },
+  {
+    "file": "src\\generated\\prisma\\runtime\\edge-esm.js",
+    "lines": 32,
+    "bytes": 166095
+  },
+  {
+    "file": "src\\generated\\prisma\\runtime\\edge.js",
+    "lines": 32,
+    "bytes": 166370
+  },
+  {
+    "file": "src\\generated\\prisma\\runtime\\index-browser.js",
+    "lines": 14,
+    "bytes": 34709
+  },
+  {
+    "file": "src\\generated\\prisma\\runtime\\library.js",
+    "lines": 144,
+    "bytes": 191178
+  },
+  {
+    "file": "src\\generated\\prisma\\runtime\\react-native.js",
+    "lines": 81,
+    "bytes": 174707
+  },
+  {
+    "file": "src\\generated\\prisma\\runtime\\wasm.js",
+    "lines": 33,
+    "bytes": 124187
+  },
+  {
+    "file": "src\\generated\\prisma\\schema.prisma",
+    "lines": 40,
+    "bytes": 703
+  },
+  {
+    "file": "src\\generated\\prisma\\wasm.js",
+    "lines": 193,
+    "bytes": 6836
+  },
+  {
+    "file": "src\\global\\aggregator.js",
+    "lines": 19,
+    "bytes": 251
+  },
+  {
+    "file": "src\\global\\events.js",
+    "lines": 12,
+    "bytes": 152
+  },
+  {
+    "file": "src\\global\\network.js",
+    "lines": 16,
+    "bytes": 340
+  },
+  {
+    "file": "src\\global\\patterns.js",
+    "lines": 17,
+    "bytes": 339
+  },
+  {
+    "file": "src\\global\\scoring.js",
+    "lines": 13,
+    "bytes": 290
+  },
+  {
+    "file": "src\\learning\\adaptiveScoring.js",
+    "lines": 27,
+    "bytes": 313
+  },
+  {
+    "file": "src\\learning\\feedbackLoop.js",
+    "lines": 22,
+    "bytes": 382
+  },
+  {
+    "file": "src\\learning\\index.js",
+    "lines": 5,
+    "bytes": 144
+  },
+  {
+    "file": "src\\learning\\memory.js",
+    "lines": 16,
+    "bytes": 286
+  },
+  {
+    "file": "src\\learning\\rewardSystem.js",
+    "lines": 11,
+    "bytes": 258
+  },
+  {
+    "file": "src\\logs\\logger.js",
+    "lines": 16,
+    "bytes": 218
+  },
+  {
+    "file": "src\\middleware\\apiKeys.js",
+    "lines": 20,
+    "bytes": 343
+  },
+  {
+    "file": "src\\middleware\\auth.js",
+    "lines": 17,
+    "bytes": 262
+  },
+  {
+    "file": "src\\middleware\\limiter.js",
+    "lines": 14,
+    "bytes": 164
+  },
+  {
+    "file": "src\\middleware\\rateLimit.js",
+    "lines": 27,
+    "bytes": 393
+  },
+  {
+    "file": "src\\middleware\\tenant.js",
+    "lines": 87,
+    "bytes": 1593
+  },
+  {
+    "file": "src\\orchestrator\\fallback.js",
+    "lines": 15,
+    "bytes": 259
+  },
+  {
+    "file": "src\\orchestrator\\index.js",
+    "lines": 20,
+    "bytes": 430
+  },
+  {
+    "file": "src\\orchestrator\\logger.js",
+    "lines": 12,
+    "bytes": 164
+  },
+  {
+    "file": "src\\orchestrator\\observability.js",
+    "lines": 16,
+    "bytes": 352
+  },
+  {
+    "file": "src\\orchestrator\\providers\\claude.js",
+    "lines": 6,
+    "bytes": 111
+  },
+  {
+    "file": "src\\orchestrator\\providers\\gemini.js",
+    "lines": 6,
+    "bytes": 111
+  },
+  {
+    "file": "src\\orchestrator\\providers\\openai.js",
+    "lines": 18,
+    "bytes": 349
+  },
+  {
+    "file": "src\\orchestrator\\router.js",
+    "lines": 17,
+    "bytes": 527
+  },
+  {
+    "file": "src\\platform\\config.js",
+    "lines": 13,
+    "bytes": 277
+  },
+  {
+    "file": "src\\platform\\core.js",
+    "lines": 7,
+    "bytes": 113
+  },
+  {
+    "file": "src\\platform\\economy.js",
+    "lines": 13,
+    "bytes": 202
+  },
+  {
+    "file": "src\\platform\\ecosystem.js",
+    "lines": 13,
+    "bytes": 203
+  },
+  {
+    "file": "src\\platform\\engine.js",
+    "lines": 23,
+    "bytes": 498
+  },
+  {
+    "file": "src\\platform\\governance.js",
+    "lines": 12,
+    "bytes": 234
+  },
+  {
+    "file": "src\\platform\\router.js",
+    "lines": 10,
+    "bytes": 256
+  },
+  {
+    "file": "src\\platform\\selfHealing.js",
+    "lines": 12,
+    "bytes": 267
+  },
+  {
+    "file": "src\\providers\\claude.js",
+    "lines": 13,
+    "bytes": 143
+  },
+  {
+    "file": "src\\providers\\claude.provider.js",
+    "lines": 9,
+    "bytes": 128
+  },
+  {
+    "file": "src\\providers\\gemini.js",
+    "lines": 13,
+    "bytes": 143
+  },
+  {
+    "file": "src\\providers\\gemini.provider.js",
+    "lines": 9,
+    "bytes": 134
+  },
+  {
+    "file": "src\\providers\\openai.js",
+    "lines": 13,
+    "bytes": 143
+  },
+  {
+    "file": "src\\providers\\openai.provider.js",
+    "lines": 9,
+    "bytes": 127
+  },
+  {
+    "file": "src\\reality\\feedback.js",
+    "lines": 11,
+    "bytes": 194
+  },
+  {
+    "file": "src\\reality\\index.js",
+    "lines": 17,
+    "bytes": 403
+  },
+  {
+    "file": "src\\reality\\learningLoop.js",
+    "lines": 29,
+    "bytes": 516
+  },
+  {
+    "file": "src\\reality\\rewardReal.js",
+    "lines": 12,
+    "bytes": 218
+  },
+  {
+    "file": "src\\reality\\tracker.js",
+    "lines": 12,
+    "bytes": 171
+  },
+  {
+    "file": "src\\routes\\ai.routes.js",
+    "lines": 174,
+    "bytes": 2043
+  },
+  {
+    "file": "src\\routes\\analytics.routes.js",
+    "lines": 54,
+    "bytes": 647
+  },
+  {
+    "file": "src\\routes\\auth.routes.js",
+    "lines": 115,
+    "bytes": 1461
+  },
+  {
+    "file": "src\\routes\\billing.routes.js",
+    "lines": 37,
+    "bytes": 645
+  },
+  {
+    "file": "src\\routes\\dashboard.routes.js",
+    "lines": 9,
+    "bytes": 190
+  },
+  {
+    "file": "src\\routes\\projection.routes.js",
+    "lines": 9,
+    "bytes": 193
+  },
+  {
+    "file": "src\\routes\\providers.routes.js",
+    "lines": 9,
+    "bytes": 190
+  },
+  {
+    "file": "src\\routes\\realtime.routes.js",
+    "lines": 9,
+    "bytes": 187
+  },
+  {
+    "file": "src\\routes\\tenant.routes.js",
+    "lines": 29,
+    "bytes": 457
+  },
+  {
+    "file": "src\\selfOperating\\decisionLoop.js",
+    "lines": 27,
+    "bytes": 402
+  },
+  {
+    "file": "src\\selfOperating\\executor.js",
+    "lines": 8,
+    "bytes": 121
+  },
+  {
+    "file": "src\\selfOperating\\feedback.js",
+    "lines": 8,
+    "bytes": 123
+  },
+  {
+    "file": "src\\selfOperating\\learning.js",
+    "lines": 11,
+    "bytes": 133
+  },
+  {
+    "file": "src\\selfOperating\\loop.js",
+    "lines": 24,
+    "bytes": 585
+  },
+  {
+    "file": "src\\selfOperating\\observer.js",
+    "lines": 8,
+    "bytes": 161
+  },
+  {
+    "file": "src\\selfOperating\\stateEngine.js",
+    "lines": 9,
+    "bytes": 166
+  },
+  {
+    "file": "src\\services\\billing.js",
+    "lines": 41,
+    "bytes": 438
+  },
+  {
+    "file": "src\\services\\billing.service.js",
+    "lines": 43,
+    "bytes": 504
+  },
+  {
+    "file": "src\\services\\orchestrator.js",
+    "lines": 25,
+    "bytes": 338
+  },
+  {
+    "file": "src\\services\\router.engine.js",
+    "lines": 27,
+    "bytes": 415
+  },
+  {
+    "file": "src\\services\\router.js",
+    "lines": 41,
+    "bytes": 921
+  },
+  {
+    "file": "src\\services\\router.service.js",
+    "lines": 24,
+    "bytes": 349
+  },
+  {
+    "file": "src\\services\\usageTracker.js",
+    "lines": 21,
+    "bytes": 369
+  },
+  {
+    "file": "_legacy\\analytics\\analyticsEngine.js",
+    "lines": 52,
+    "bytes": 609
+  },
+  {
+    "file": "_legacy\\auth\\login.js",
+    "lines": 36,
+    "bytes": 365
+  },
+  {
+    "file": "_legacy\\auth.js",
+    "lines": 26,
+    "bytes": 617
+  },
+  {
+    "file": "_legacy\\billing\\billingEngine.js",
+    "lines": 31,
+    "bytes": 273
+  },
+  {
+    "file": "_legacy\\billing.js",
+    "lines": 22,
+    "bytes": 459
+  },
+  {
+    "file": "_legacy\\server.js",
+    "lines": 66,
+    "bytes": 1330
+  },
+  {
+    "file": "_legacy\\test-db.js",
+    "lines": 8,
+    "bytes": 149
+  },
+  {
+    "file": "_legacy\\test-server.js",
+    "lines": 10,
+    "bytes": 265
+  }
+]

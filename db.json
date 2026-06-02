@@ -1,0 +1,10 @@
+{
+  "tenants": [
+    {
+      "apiKey": "demo_key",
+      "name": "Empresa Demo",
+      "quota": 1000,
+      "used": 12
+    }
+  ]
+}

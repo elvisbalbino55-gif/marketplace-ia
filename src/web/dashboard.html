@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI SaaS Dashboard</title>
+<style>
+body { font-family: Arial; background:#0f172a; color:#fff; padding:20px; }
+.card { background:#1e293b; padding:20px; margin:10px 0; border-radius:10px; }
+h1 { color:#38bdf8; }
+</style>
+</head>
+<body>
+
+<h1>AI Orchestrator Dashboard</h1>
+
+<div class="card">
+<h2>Tenant</h2>
+<div id="tenant"></div>
+</div>
+
+<div class="card">
+<h2>Usage</h2>
+<div id="usage"></div>
+</div>
+
+<script>
+async function load(){
+const res = await fetch('/api/dashboard', {
+headers: { 'x-api-key': 'demo_key' }
+});
+const data = await res.json();
+
+document.getElementById('tenant').innerText =
+JSON.stringify(data.tenant, null, 2);
+
+document.getElementById('usage').innerText =
+JSON.stringify(data.usage, null, 2);
+}
+
+load();
+</script>
+
+</body>
+</html>

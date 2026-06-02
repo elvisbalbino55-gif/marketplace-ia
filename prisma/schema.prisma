@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  apiKey    String   @unique
+  quota     Int      @default(100000)
+  used      Int      @default(0)
+  createdAt DateTime @default(now())
+
+  logs UsageLog[]
+}
+
+model UsageLog {
+  id        String   @id @default(cuid())
+
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+
+  provider  String
+  prompt    String
+
+  cost      Float
+  revenue   Float
+  profit    Float
+
+  latency   Int
+
+  createdAt DateTime @default(now())
+}

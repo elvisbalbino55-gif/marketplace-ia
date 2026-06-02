@@ -1,0 +1,3475 @@
+[
+  {
+    "id": 1780282803162,
+    "tenant": "demo_key",
+    "provider": "gemini",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "latency": 200,
+    "cost": 0.4,
+    "revenue": 1.5,
+    "profit": 1.1,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": true
+        },
+        "economics": {
+          "impact": 0.14118547110689672,
+          "cost": 0.17389372224076294,
+          "risk": 0.26503190187708897,
+          "score": -0.2977401530109552
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "executed"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "unknown",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.6823792895999814,
+          "revenueTrend": 0.37153307730194807,
+          "riskLevel": 0.6909003562505112,
+          "opportunityScore": 0.2654753533212544
+        },
+        "observation": {
+          "anomalies": false,
+          "opportunities": false,
+          "risk": true
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": true
+        },
+        "learning": {
+          "memorySize": 1,
+          "last": {
+            "success": true,
+            "impact": 0.4540254236707735,
+            "timestamp": 1780282803149
+          }
+        }
+      },
+      "execution": {
+        "status": "planned_and_dispatched",
+        "selectedStrategyId": "strategy-3",
+        "selectedStrategy": "efficiency",
+        "plan": {
+          "strategyId": "strategy-3",
+          "strategyName": "efficiency",
+          "objective": "revenue_execution",
+          "mode": "connector_orchestration",
+          "steps": [
+            {
+              "id": "step-1",
+              "connector": "whatsapp",
+              "type": "reactivate_leads",
+              "payload": {
+                "messageTemplate": "revenue_reactivation",
+                "strategy": "efficiency"
+              },
+              "status": "planned"
+            },
+            {
+              "id": "step-2",
+              "connector": "crm",
+              "type": "update_lead_stage",
+              "payload": {
+                "stage": "reactivation_started",
+                "strategy": "efficiency"
+              },
+              "status": "planned"
+            },
+            {
+              "id": "step-3",
+              "connector": "stripe",
+              "type": "prepare_offer",
+              "payload": {
+                "offerType": "winback",
+                "strategy": "efficiency"
+              },
+              "status": "planned"
+            },
+            {
+              "id": "step-4",
+              "connector": "internal",
+              "type": "monitor_roi",
+              "payload": {
+                "metric": "expectedProfit",
+                "target": 50.88
+              },
+              "status": "planned"
+            }
+          ],
+          "createdAt": "2026-06-01T03:00:03.157Z"
+        },
+        "results": [
+          {
+            "id": "step-1",
+            "connector": "whatsapp",
+            "type": "reactivate_leads",
+            "payload": {
+              "messageTemplate": "revenue_reactivation",
+              "strategy": "efficiency"
+            },
+            "status": "whatsapp_ready",
+            "result": {
+              "connector": "whatsapp",
+              "status": "whatsapp_ready",
+              "action": {
+                "connector": "whatsapp",
+                "type": "reactivate_leads",
+                "payload": {
+                  "messageTemplate": "revenue_reactivation",
+                  "strategy": "efficiency"
+                },
+                "strategy": {
+                  "id": "strategy-3",
+                  "name": "efficiency",
+                  "revenue": 60,
+                  "cost": 10,
+                  "risk": 0.05,
+                  "connector": "whatsapp",
+                  "action": "reactivate_leads",
+                  "profit": 50,
+                  "roi": 5,
+                  "confidence": 0.9675,
+                  "analysis": {
+                    "simulation": {
+                      "scenarios": {
+                        "optimistic": {
+                          "revenue": 81,
+                          "cost": 9.5,
+                          "profit": 71.5,
+                          "risk": 0.04
+                        },
+                        "realistic": {
+                          "revenue": 60,
+                          "cost": 10,
+                          "profit": 50,
+                          "risk": 0.05
+                        },
+                        "pessimistic": {
+                          "revenue": 39,
+                          "cost": 11.5,
+                          "profit": 27.5,
+                          "risk": 0.07
+                        }
+                      },
+                      "expectedRevenue": 61.05,
+                      "expectedCost": 10.18,
+                      "expectedProfit": 50.88,
+                      "score": 50.88
+                    },
+                    "risk": 0.05,
+                    "valueScore": 48.34
+                  },
+                  "score": 0.6852,
+                  "scoreBreakdown": {
+                    "economic": 0.6594,
+                    "executive": 0.7627,
+                    "revenue": 0.5,
+                    "roi": 1,
+                    "confidence": 0.9675,
+                    "riskPenalty": 0.05,
+                    "weights": {
+                      "revenue": 0.35,
+                      "roi": 0.25,
+                      "confidence": 0.25,
+                      "risk": 0.15,
+                      "executive": 0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "step-2",
+            "connector": "crm",
+            "type": "update_lead_stage",
+            "payload": {
+              "stage": "reactivation_started",
+              "strategy": "efficiency"
+            },
+            "status": "crm_updated",
+            "result": {
+              "connector": "crm",
+              "status": "crm_updated",
+              "action": {
+                "connector": "crm",
+                "type": "update_lead_stage",
+                "payload": {
+                  "stage": "reactivation_started",
+                  "strategy": "efficiency"
+                },
+                "strategy": {
+                  "id": "strategy-3",
+                  "name": "efficiency",
+                  "revenue": 60,
+                  "cost": 10,
+                  "risk": 0.05,
+                  "connector": "whatsapp",
+                  "action": "reactivate_leads",
+                  "profit": 50,
+                  "roi": 5,
+                  "confidence": 0.9675,
+                  "analysis": {
+                    "simulation": {
+                      "scenarios": {
+                        "optimistic": {
+                          "revenue": 81,
+                          "cost": 9.5,
+                          "profit": 71.5,
+                          "risk": 0.04
+                        },
+                        "realistic": {
+                          "revenue": 60,
+                          "cost": 10,
+                          "profit": 50,
+                          "risk": 0.05
+                        },
+                        "pessimistic": {
+                          "revenue": 39,
+                          "cost": 11.5,
+                          "profit": 27.5,
+                          "risk": 0.07
+                        }
+                      },
+                      "expectedRevenue": 61.05,
+                      "expectedCost": 10.18,
+                      "expectedProfit": 50.88,
+                      "score": 50.88
+                    },
+                    "risk": 0.05,
+                    "valueScore": 48.34
+                  },
+                  "score": 0.6852,
+                  "scoreBreakdown": {
+                    "economic": 0.6594,
+                    "executive": 0.7627,
+                    "revenue": 0.5,
+                    "roi": 1,
+                    "confidence": 0.9675,
+                    "riskPenalty": 0.05,
+                    "weights": {
+                      "revenue": 0.35,
+                      "roi": 0.25,
+                      "confidence": 0.25,
+                      "risk": 0.15,
+                      "executive": 0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "connector": "stripe",
+            "type": "prepare_offer",
+            "payload": {
+              "offerType": "winback",
+              "strategy": "efficiency"
+            },
+            "status": "stripe_ready",
+            "result": {
+              "connector": "stripe",
+              "status": "stripe_ready",
+              "action": {
+                "connector": "stripe",
+                "type": "prepare_offer",
+                "payload": {
+                  "offerType": "winback",
+                  "strategy": "efficiency"
+                },
+                "strategy": {
+                  "id": "strategy-3",
+                  "name": "efficiency",
+                  "revenue": 60,
+                  "cost": 10,
+                  "risk": 0.05,
+                  "connector": "whatsapp",
+                  "action": "reactivate_leads",
+                  "profit": 50,
+                  "roi": 5,
+                  "confidence": 0.9675,
+                  "analysis": {
+                    "simulation": {
+                      "scenarios": {
+                        "optimistic": {
+                          "revenue": 81,
+                          "cost": 9.5,
+                          "profit": 71.5,
+                          "risk": 0.04
+                        },
+                        "realistic": {
+                          "revenue": 60,
+                          "cost": 10,
+                          "profit": 50,
+                          "risk": 0.05
+                        },
+                        "pessimistic": {
+                          "revenue": 39,
+                          "cost": 11.5,
+                          "profit": 27.5,
+                          "risk": 0.07
+                        }
+                      },
+                      "expectedRevenue": 61.05,
+                      "expectedCost": 10.18,
+                      "expectedProfit": 50.88,
+                      "score": 50.88
+                    },
+                    "risk": 0.05,
+                    "valueScore": 48.34
+                  },
+                  "score": 0.6852,
+                  "scoreBreakdown": {
+                    "economic": 0.6594,
+                    "executive": 0.7627,
+                    "revenue": 0.5,
+                    "roi": 1,
+                    "confidence": 0.9675,
+                    "riskPenalty": 0.05,
+                    "weights": {
+                      "revenue": 0.35,
+                      "roi": 0.25,
+                      "confidence": 0.25,
+                      "risk": 0.15,
+                      "executive": 0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "step-4",
+            "connector": "internal",
+            "type": "monitor_roi",
+            "payload": {
+              "metric": "expectedProfit",
+              "target": 50.88
+            },
+            "status": "internal_executed",
+            "result": {
+              "connector": "internal",
+              "status": "internal_executed",
+              "action": {
+                "connector": "internal",
+                "type": "monitor_roi",
+                "payload": {
+                  "metric": "expectedProfit",
+                  "target": 50.88
+                },
+                "strategy": {
+                  "id": "strategy-3",
+                  "name": "efficiency",
+                  "revenue": 60,
+                  "cost": 10,
+                  "risk": 0.05,
+                  "connector": "whatsapp",
+                  "action": "reactivate_leads",
+                  "profit": 50,
+                  "roi": 5,
+                  "confidence": 0.9675,
+                  "analysis": {
+                    "simulation": {
+                      "scenarios": {
+                        "optimistic": {
+                          "revenue": 81,
+                          "cost": 9.5,
+                          "profit": 71.5,
+                          "risk": 0.04
+                        },
+                        "realistic": {
+                          "revenue": 60,
+                          "cost": 10,
+                          "profit": 50,
+                          "risk": 0.05
+                        },
+                        "pessimistic": {
+                          "revenue": 39,
+                          "cost": 11.5,
+                          "profit": 27.5,
+                          "risk": 0.07
+                        }
+                      },
+                      "expectedRevenue": 61.05,
+                      "expectedCost": 10.18,
+                      "expectedProfit": 50.88,
+                      "score": 50.88
+                    },
+                    "risk": 0.05,
+                    "valueScore": 48.34
+                  },
+                  "score": 0.6852,
+                  "scoreBreakdown": {
+                    "economic": 0.6594,
+                    "executive": 0.7627,
+                    "revenue": 0.5,
+                    "roi": 1,
+                    "confidence": 0.9675,
+                    "riskPenalty": 0.05,
+                    "weights": {
+                      "revenue": 0.35,
+                      "roi": 0.25,
+                      "confidence": 0.25,
+                      "risk": 0.15,
+                      "executive": 0.25
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "trace": {
+          "type": "execution_trace",
+          "selectedStrategyId": "strategy-3",
+          "selectedStrategy": "efficiency",
+          "status": "planned_and_dispatched",
+          "steps": [
+            {
+              "id": "step-1",
+              "connector": "whatsapp",
+              "type": "reactivate_leads",
+              "status": "whatsapp_ready"
+            },
+            {
+              "id": "step-2",
+              "connector": "crm",
+              "type": "update_lead_stage",
+              "status": "crm_updated"
+            },
+            {
+              "id": "step-3",
+              "connector": "stripe",
+              "type": "prepare_offer",
+              "status": "stripe_ready"
+            },
+            {
+              "id": "step-4",
+              "connector": "internal",
+              "type": "monitor_roi",
+              "status": "internal_executed"
+            }
+          ]
+        }
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "executive": {
+        "best": {
+          "id": "strategy-3",
+          "name": "efficiency",
+          "revenue": 60,
+          "cost": 10,
+          "risk": 0.05,
+          "connector": "whatsapp",
+          "action": "reactivate_leads",
+          "profit": 50,
+          "roi": 5,
+          "confidence": 0.9675,
+          "analysis": {
+            "simulation": {
+              "scenarios": {
+                "optimistic": {
+                  "revenue": 81,
+                  "cost": 9.5,
+                  "profit": 71.5,
+                  "risk": 0.04
+                },
+                "realistic": {
+                  "revenue": 60,
+                  "cost": 10,
+                  "profit": 50,
+                  "risk": 0.05
+                },
+                "pessimistic": {
+                  "revenue": 39,
+                  "cost": 11.5,
+                  "profit": 27.5,
+                  "risk": 0.07
+                }
+              },
+              "expectedRevenue": 61.05,
+              "expectedCost": 10.18,
+              "expectedProfit": 50.88,
+              "score": 50.88
+            },
+            "risk": 0.05,
+            "valueScore": 48.34
+          },
+          "score": 0.6852,
+          "scoreBreakdown": {
+            "economic": 0.6594,
+            "executive": 0.7627,
+            "revenue": 0.5,
+            "roi": 1,
+            "confidence": 0.9675,
+            "riskPenalty": 0.05,
+            "weights": {
+              "revenue": 0.35,
+              "roi": 0.25,
+              "confidence": 0.25,
+              "risk": 0.15,
+              "executive": 0.25
+            }
+          }
+        },
+        "ranked": [
+          {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 81,
+                    "cost": 9.5,
+                    "profit": 71.5,
+                    "risk": 0.04
+                  },
+                  "realistic": {
+                    "revenue": 60,
+                    "cost": 10,
+                    "profit": 50,
+                    "risk": 0.05
+                  },
+                  "pessimistic": {
+                    "revenue": 39,
+                    "cost": 11.5,
+                    "profit": 27.5,
+                    "risk": 0.07
+                  }
+                },
+                "expectedRevenue": 61.05,
+                "expectedCost": 10.18,
+                "expectedProfit": 50.88,
+                "score": 50.88
+              },
+              "risk": 0.05,
+              "valueScore": 48.34
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-2",
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline",
+            "profit": 70,
+            "roi": 3.5,
+            "confidence": 0.9025,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 121.5,
+                    "cost": 19,
+                    "profit": 102.5,
+                    "risk": 0.11
+                  },
+                  "realistic": {
+                    "revenue": 90,
+                    "cost": 20,
+                    "profit": 70,
+                    "risk": 0.15
+                  },
+                  "pessimistic": {
+                    "revenue": 58.5,
+                    "cost": 23,
+                    "profit": 35.5,
+                    "risk": 0.21
+                  }
+                },
+                "expectedRevenue": 91.58,
+                "expectedCost": 20.35,
+                "expectedProfit": 71.22,
+                "score": 71.22
+              },
+              "risk": 0.15,
+              "valueScore": 60.54
+            },
+            "score": 0.6695,
+            "scoreBreakdown": {
+              "economic": 0.6406,
+              "executive": 0.756,
+              "revenue": 0.75,
+              "roi": 0.7,
+              "confidence": 0.9025,
+              "riskPenalty": 0.15,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-1",
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign",
+            "profit": 80,
+            "roi": 2,
+            "confidence": 0.8049999999999999,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 162,
+                    "cost": 38,
+                    "profit": 124,
+                    "risk": 0.22
+                  },
+                  "realistic": {
+                    "revenue": 120,
+                    "cost": 40,
+                    "profit": 80,
+                    "risk": 0.3
+                  },
+                  "pessimistic": {
+                    "revenue": 78,
+                    "cost": 46,
+                    "profit": 32,
+                    "risk": 0.42
+                  }
+                },
+                "expectedRevenue": 122.1,
+                "expectedCost": 40.7,
+                "expectedProfit": 81.4,
+                "score": 81.4
+              },
+              "risk": 0.3,
+              "valueScore": 56.98
+            },
+            "score": 0.6289,
+            "scoreBreakdown": {
+              "economic": 0.6062,
+              "executive": 0.697,
+              "revenue": 1,
+              "roi": 0.4,
+              "confidence": 0.805,
+              "riskPenalty": 0.3,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        ],
+        "all": [
+          {
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign"
+          },
+          {
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline"
+          },
+          {
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads"
+          }
+        ],
+        "weights": {
+          "revenue": 0.35,
+          "roi": 0.25,
+          "confidence": 0.25,
+          "risk": 0.15,
+          "executive": 0.25
+        },
+        "evaluatedAt": "2026-06-01T03:00:03.153Z",
+        "council": {
+          "agents": [
+            {
+              "role": "CEO",
+              "weight": 0.28,
+              "focus": "strategic_growth"
+            },
+            {
+              "role": "CFO",
+              "weight": 0.24,
+              "focus": "profit_and_cash_efficiency"
+            },
+            {
+              "role": "CMO",
+              "weight": 0.2,
+              "focus": "market_expansion"
+            },
+            {
+              "role": "COO",
+              "weight": 0.16,
+              "focus": "operational_feasibility"
+            },
+            {
+              "role": "CTO",
+              "weight": 0.12,
+              "focus": "technical_complexity"
+            }
+          ],
+          "reviews": [
+            {
+              "strategyId": "strategy-1",
+              "strategyName": "growth",
+              "executiveScore": 0.697,
+              "recommendation": "approve_with_controls",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.8583,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.525,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.805,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.6067,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.605,
+                  "recommendation": "approve_with_controls"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-2",
+              "strategyName": "balanced",
+              "executiveScore": 0.756,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.7806,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.7458,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.5525,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.8728,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9025,
+                  "recommendation": "approve"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-3",
+              "strategyName": "efficiency",
+              "executiveScore": 0.7627,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.6792,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.9425,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.3925,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.9483,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9675,
+                  "recommendation": "approve"
+                }
+              ]
+            }
+          ],
+          "generatedAt": "2026-06-01T03:00:03.150Z"
+        },
+        "trace": {
+          "type": "decision_trace",
+          "tenant": "demo_key",
+          "prompt": "criar plano para aumentar vendas de um ecommerce",
+          "selectedStrategy": "efficiency",
+          "score": 0.6852,
+          "confidence": 0.9675,
+          "councilRecommendation": "approve",
+          "ranked": [
+            {
+              "id": "strategy-3",
+              "name": "efficiency",
+              "score": 0.6852,
+              "revenue": 60,
+              "cost": 10,
+              "profit": 50,
+              "roi": 5,
+              "risk": 0.05,
+              "confidence": 0.9675
+            },
+            {
+              "id": "strategy-2",
+              "name": "balanced",
+              "score": 0.6695,
+              "revenue": 90,
+              "cost": 20,
+              "profit": 70,
+              "roi": 3.5,
+              "risk": 0.15,
+              "confidence": 0.9025
+            },
+            {
+              "id": "strategy-1",
+              "name": "growth",
+              "score": 0.6289,
+              "revenue": 120,
+              "cost": 40,
+              "profit": 80,
+              "roi": 2,
+              "risk": 0.3,
+              "confidence": 0.8049999999999999
+            }
+          ]
+        }
+      },
+      "business": {
+        "revenue": 16.061999999999998,
+        "cost": 5.608,
+        "profit": 10.453999999999997,
+        "margin": 65.09
+      },
+      "memory": {
+        "size": 10
+      },
+      "timestamp": "2026-06-01T03:00:03.162Z"
+    },
+    "time": "2026-06-01T03:00:03.162Z"
+  },
+  {
+    "id": 1780282126415,
+    "tenant": "demo_key",
+    "provider": "gemini",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "latency": 200,
+    "cost": 0.4,
+    "revenue": 1.5,
+    "profit": 1.1,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": false,
+          "reason": "high risk blocked"
+        },
+        "economics": {
+          "impact": 0.22180070724936463,
+          "cost": 0.4956012479105041,
+          "risk": 0.08573980101456691,
+          "score": -0.35954034167570637
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "blocked"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "unknown",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.8887633275688978,
+          "revenueTrend": 0.3352803590512403,
+          "riskLevel": 0.9180087285709875,
+          "opportunityScore": 0.09012146748885441
+        },
+        "observation": {
+          "anomalies": false,
+          "opportunities": false,
+          "risk": true
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": false
+        },
+        "learning": {
+          "memorySize": 1,
+          "last": {
+            "success": false,
+            "impact": 0.7648921947910203,
+            "timestamp": 1780282126387
+          }
+        }
+      },
+      "execution": {
+        "connector": "whatsapp",
+        "status": "whatsapp_ready",
+        "action": {
+          "connector": "whatsapp",
+          "type": "reactivate_leads",
+          "strategy": {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 81,
+                    "cost": 9.5,
+                    "profit": 71.5,
+                    "risk": 0.04
+                  },
+                  "realistic": {
+                    "revenue": 60,
+                    "cost": 10,
+                    "profit": 50,
+                    "risk": 0.05
+                  },
+                  "pessimistic": {
+                    "revenue": 39,
+                    "cost": 11.5,
+                    "profit": 27.5,
+                    "risk": 0.07
+                  }
+                },
+                "expectedRevenue": 61.05,
+                "expectedCost": 10.18,
+                "expectedProfit": 50.88,
+                "score": 50.88
+              },
+              "risk": 0.05,
+              "valueScore": 48.34
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        }
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "executive": {
+        "best": {
+          "id": "strategy-3",
+          "name": "efficiency",
+          "revenue": 60,
+          "cost": 10,
+          "risk": 0.05,
+          "connector": "whatsapp",
+          "action": "reactivate_leads",
+          "profit": 50,
+          "roi": 5,
+          "confidence": 0.9675,
+          "analysis": {
+            "simulation": {
+              "scenarios": {
+                "optimistic": {
+                  "revenue": 81,
+                  "cost": 9.5,
+                  "profit": 71.5,
+                  "risk": 0.04
+                },
+                "realistic": {
+                  "revenue": 60,
+                  "cost": 10,
+                  "profit": 50,
+                  "risk": 0.05
+                },
+                "pessimistic": {
+                  "revenue": 39,
+                  "cost": 11.5,
+                  "profit": 27.5,
+                  "risk": 0.07
+                }
+              },
+              "expectedRevenue": 61.05,
+              "expectedCost": 10.18,
+              "expectedProfit": 50.88,
+              "score": 50.88
+            },
+            "risk": 0.05,
+            "valueScore": 48.34
+          },
+          "score": 0.6852,
+          "scoreBreakdown": {
+            "economic": 0.6594,
+            "executive": 0.7627,
+            "revenue": 0.5,
+            "roi": 1,
+            "confidence": 0.9675,
+            "riskPenalty": 0.05,
+            "weights": {
+              "revenue": 0.35,
+              "roi": 0.25,
+              "confidence": 0.25,
+              "risk": 0.15,
+              "executive": 0.25
+            }
+          }
+        },
+        "ranked": [
+          {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 81,
+                    "cost": 9.5,
+                    "profit": 71.5,
+                    "risk": 0.04
+                  },
+                  "realistic": {
+                    "revenue": 60,
+                    "cost": 10,
+                    "profit": 50,
+                    "risk": 0.05
+                  },
+                  "pessimistic": {
+                    "revenue": 39,
+                    "cost": 11.5,
+                    "profit": 27.5,
+                    "risk": 0.07
+                  }
+                },
+                "expectedRevenue": 61.05,
+                "expectedCost": 10.18,
+                "expectedProfit": 50.88,
+                "score": 50.88
+              },
+              "risk": 0.05,
+              "valueScore": 48.34
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-2",
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline",
+            "profit": 70,
+            "roi": 3.5,
+            "confidence": 0.9025,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 121.5,
+                    "cost": 19,
+                    "profit": 102.5,
+                    "risk": 0.11
+                  },
+                  "realistic": {
+                    "revenue": 90,
+                    "cost": 20,
+                    "profit": 70,
+                    "risk": 0.15
+                  },
+                  "pessimistic": {
+                    "revenue": 58.5,
+                    "cost": 23,
+                    "profit": 35.5,
+                    "risk": 0.21
+                  }
+                },
+                "expectedRevenue": 91.58,
+                "expectedCost": 20.35,
+                "expectedProfit": 71.22,
+                "score": 71.22
+              },
+              "risk": 0.15,
+              "valueScore": 60.54
+            },
+            "score": 0.6695,
+            "scoreBreakdown": {
+              "economic": 0.6406,
+              "executive": 0.756,
+              "revenue": 0.75,
+              "roi": 0.7,
+              "confidence": 0.9025,
+              "riskPenalty": 0.15,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-1",
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign",
+            "profit": 80,
+            "roi": 2,
+            "confidence": 0.8049999999999999,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 162,
+                    "cost": 38,
+                    "profit": 124,
+                    "risk": 0.22
+                  },
+                  "realistic": {
+                    "revenue": 120,
+                    "cost": 40,
+                    "profit": 80,
+                    "risk": 0.3
+                  },
+                  "pessimistic": {
+                    "revenue": 78,
+                    "cost": 46,
+                    "profit": 32,
+                    "risk": 0.42
+                  }
+                },
+                "expectedRevenue": 122.1,
+                "expectedCost": 40.7,
+                "expectedProfit": 81.4,
+                "score": 81.4
+              },
+              "risk": 0.3,
+              "valueScore": 56.98
+            },
+            "score": 0.6289,
+            "scoreBreakdown": {
+              "economic": 0.6062,
+              "executive": 0.697,
+              "revenue": 1,
+              "roi": 0.4,
+              "confidence": 0.805,
+              "riskPenalty": 0.3,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        ],
+        "all": [
+          {
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign"
+          },
+          {
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline"
+          },
+          {
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads"
+          }
+        ],
+        "weights": {
+          "revenue": 0.35,
+          "roi": 0.25,
+          "confidence": 0.25,
+          "risk": 0.15,
+          "executive": 0.25
+        },
+        "evaluatedAt": "2026-06-01T02:48:46.408Z",
+        "council": {
+          "agents": [
+            {
+              "role": "CEO",
+              "weight": 0.28,
+              "focus": "strategic_growth"
+            },
+            {
+              "role": "CFO",
+              "weight": 0.24,
+              "focus": "profit_and_cash_efficiency"
+            },
+            {
+              "role": "CMO",
+              "weight": 0.2,
+              "focus": "market_expansion"
+            },
+            {
+              "role": "COO",
+              "weight": 0.16,
+              "focus": "operational_feasibility"
+            },
+            {
+              "role": "CTO",
+              "weight": 0.12,
+              "focus": "technical_complexity"
+            }
+          ],
+          "reviews": [
+            {
+              "strategyId": "strategy-1",
+              "strategyName": "growth",
+              "executiveScore": 0.697,
+              "recommendation": "approve_with_controls",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.8583,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.525,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.805,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.6067,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.605,
+                  "recommendation": "approve_with_controls"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-2",
+              "strategyName": "balanced",
+              "executiveScore": 0.756,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.7806,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.7458,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.5525,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.8728,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9025,
+                  "recommendation": "approve"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-3",
+              "strategyName": "efficiency",
+              "executiveScore": 0.7627,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.6792,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.9425,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.3925,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.9483,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9675,
+                  "recommendation": "approve"
+                }
+              ]
+            }
+          ],
+          "generatedAt": "2026-06-01T02:48:46.388Z"
+        },
+        "trace": {
+          "type": "decision_trace",
+          "tenant": "demo_key",
+          "prompt": "criar plano para aumentar vendas de um ecommerce",
+          "selectedStrategy": "efficiency",
+          "score": 0.6852,
+          "confidence": 0.9675,
+          "councilRecommendation": "approve",
+          "ranked": [
+            {
+              "id": "strategy-3",
+              "name": "efficiency",
+              "score": 0.6852,
+              "revenue": 60,
+              "cost": 10,
+              "profit": 50,
+              "roi": 5,
+              "risk": 0.05,
+              "confidence": 0.9675
+            },
+            {
+              "id": "strategy-2",
+              "name": "balanced",
+              "score": 0.6695,
+              "revenue": 90,
+              "cost": 20,
+              "profit": 70,
+              "roi": 3.5,
+              "risk": 0.15,
+              "confidence": 0.9025
+            },
+            {
+              "id": "strategy-1",
+              "name": "growth",
+              "score": 0.6289,
+              "revenue": 120,
+              "cost": 40,
+              "profit": 80,
+              "roi": 2,
+              "risk": 0.3,
+              "confidence": 0.8049999999999999
+            }
+          ]
+        }
+      },
+      "business": {
+        "revenue": 14.562000000000001,
+        "cost": 5.207999999999999,
+        "profit": 9.354000000000003,
+        "margin": 64.24
+      },
+      "memory": {
+        "size": 7
+      },
+      "timestamp": "2026-06-01T02:48:46.415Z"
+    },
+    "time": "2026-06-01T02:48:46.415Z"
+  },
+  {
+    "id": 1780281717979,
+    "tenant": "demo_key",
+    "provider": "gemini",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "latency": 200,
+    "cost": 0.4,
+    "revenue": 1.5,
+    "profit": 1.1,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": false,
+          "reason": "high risk blocked"
+        },
+        "economics": {
+          "impact": 0.15484946806967215,
+          "cost": 0.35326594621590535,
+          "risk": 0.3601801138318981,
+          "score": -0.5585965919781313
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "blocked"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "unknown",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.9793083262328857,
+          "revenueTrend": 0.8812547911256585,
+          "riskLevel": 0.5456640201640832,
+          "opportunityScore": 0.031476543357080944
+        },
+        "observation": {
+          "anomalies": false,
+          "opportunities": false,
+          "risk": false
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": true
+        },
+        "learning": {
+          "memorySize": 2,
+          "last": {
+            "success": true,
+            "impact": 0.03574604967215489,
+            "timestamp": 1780281717973
+          }
+        }
+      },
+      "execution": {
+        "connector": "whatsapp",
+        "status": "whatsapp_ready",
+        "action": {
+          "connector": "whatsapp",
+          "type": "reactivate_leads",
+          "strategy": {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        }
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "executive": {
+        "best": {
+          "id": "strategy-3",
+          "name": "efficiency",
+          "revenue": 60,
+          "cost": 10,
+          "risk": 0.05,
+          "connector": "whatsapp",
+          "action": "reactivate_leads",
+          "profit": 50,
+          "roi": 5,
+          "confidence": 0.9675,
+          "analysis": {
+            "simulation": {
+              "scenarios": {
+                "optimistic": {
+                  "revenue": 1.5,
+                  "cost": 1,
+                  "risk": 0.2
+                },
+                "realistic": {
+                  "revenue": 1,
+                  "cost": 1,
+                  "risk": 0.4
+                },
+                "pessimistic": {
+                  "revenue": 0.6,
+                  "cost": 1.2,
+                  "risk": 0.7
+                }
+              },
+              "score": 0.67
+            },
+            "risk": 0.3,
+            "valueScore": 0.47
+          },
+          "score": 0.6852,
+          "scoreBreakdown": {
+            "economic": 0.6594,
+            "executive": 0.7627,
+            "revenue": 0.5,
+            "roi": 1,
+            "confidence": 0.9675,
+            "riskPenalty": 0.05,
+            "weights": {
+              "revenue": 0.35,
+              "roi": 0.25,
+              "confidence": 0.25,
+              "risk": 0.15,
+              "executive": 0.25
+            }
+          }
+        },
+        "ranked": [
+          {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-2",
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline",
+            "profit": 70,
+            "roi": 3.5,
+            "confidence": 0.9025,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6695,
+            "scoreBreakdown": {
+              "economic": 0.6406,
+              "executive": 0.756,
+              "revenue": 0.75,
+              "roi": 0.7,
+              "confidence": 0.9025,
+              "riskPenalty": 0.15,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-1",
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign",
+            "profit": 80,
+            "roi": 2,
+            "confidence": 0.8049999999999999,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6289,
+            "scoreBreakdown": {
+              "economic": 0.6062,
+              "executive": 0.697,
+              "revenue": 1,
+              "roi": 0.4,
+              "confidence": 0.805,
+              "riskPenalty": 0.3,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        ],
+        "all": [
+          {
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign"
+          },
+          {
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline"
+          },
+          {
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads"
+          }
+        ],
+        "weights": {
+          "revenue": 0.35,
+          "roi": 0.25,
+          "confidence": 0.25,
+          "risk": 0.15,
+          "executive": 0.25
+        },
+        "evaluatedAt": "2026-06-01T02:41:57.974Z",
+        "council": {
+          "agents": [
+            {
+              "role": "CEO",
+              "weight": 0.28,
+              "focus": "strategic_growth"
+            },
+            {
+              "role": "CFO",
+              "weight": 0.24,
+              "focus": "profit_and_cash_efficiency"
+            },
+            {
+              "role": "CMO",
+              "weight": 0.2,
+              "focus": "market_expansion"
+            },
+            {
+              "role": "COO",
+              "weight": 0.16,
+              "focus": "operational_feasibility"
+            },
+            {
+              "role": "CTO",
+              "weight": 0.12,
+              "focus": "technical_complexity"
+            }
+          ],
+          "reviews": [
+            {
+              "strategyId": "strategy-1",
+              "strategyName": "growth",
+              "executiveScore": 0.697,
+              "recommendation": "approve_with_controls",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.8583,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.525,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.805,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.6067,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.605,
+                  "recommendation": "approve_with_controls"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-2",
+              "strategyName": "balanced",
+              "executiveScore": 0.756,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.7806,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.7458,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.5525,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.8728,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9025,
+                  "recommendation": "approve"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-3",
+              "strategyName": "efficiency",
+              "executiveScore": 0.7627,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.6792,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.9425,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.3925,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.9483,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9675,
+                  "recommendation": "approve"
+                }
+              ]
+            }
+          ],
+          "generatedAt": "2026-06-01T02:41:57.973Z"
+        },
+        "trace": {
+          "type": "decision_trace",
+          "tenant": "demo_key",
+          "prompt": "criar plano para aumentar vendas de um ecommerce",
+          "selectedStrategy": "efficiency",
+          "score": 0.6852,
+          "confidence": 0.9675,
+          "councilRecommendation": "approve",
+          "ranked": [
+            {
+              "id": "strategy-3",
+              "name": "efficiency",
+              "score": 0.6852,
+              "revenue": 60,
+              "cost": 10,
+              "profit": 50,
+              "roi": 5,
+              "risk": 0.05,
+              "confidence": 0.9675
+            },
+            {
+              "id": "strategy-2",
+              "name": "balanced",
+              "score": 0.6695,
+              "revenue": 90,
+              "cost": 20,
+              "profit": 70,
+              "roi": 3.5,
+              "risk": 0.15,
+              "confidence": 0.9025
+            },
+            {
+              "id": "strategy-1",
+              "name": "growth",
+              "score": 0.6289,
+              "revenue": 120,
+              "cost": 40,
+              "profit": 80,
+              "roi": 2,
+              "risk": 0.3,
+              "confidence": 0.8049999999999999
+            }
+          ]
+        }
+      },
+      "business": {
+        "revenue": 13.062000000000001,
+        "cost": 4.807999999999999,
+        "profit": 8.254000000000001,
+        "margin": 63.19
+      },
+      "memory": {
+        "size": 5
+      },
+      "timestamp": "2026-06-01T02:41:57.978Z"
+    },
+    "time": "2026-06-01T02:41:57.979Z"
+  },
+  {
+    "id": 1780281648192,
+    "tenant": "demo_key",
+    "provider": "gemini",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "latency": 200,
+    "cost": 0.4,
+    "revenue": 1.5,
+    "profit": 1.1,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": true
+        },
+        "economics": {
+          "impact": 0.4808264067946286,
+          "cost": 0.09262392390308494,
+          "risk": 0.282498115434466,
+          "score": 0.10570436745707767
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "executed"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "unknown",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.8540754621006357,
+          "revenueTrend": 0.9152504821052025,
+          "riskLevel": 0.5283927580709122,
+          "opportunityScore": 0.27586891296603655
+        },
+        "observation": {
+          "anomalies": false,
+          "opportunities": false,
+          "risk": false
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": true
+        },
+        "learning": {
+          "memorySize": 1,
+          "last": {
+            "success": true,
+            "impact": 0.6034916523150347,
+            "timestamp": 1780281648171
+          }
+        }
+      },
+      "execution": {
+        "connector": "whatsapp",
+        "status": "whatsapp_ready",
+        "action": {
+          "connector": "whatsapp",
+          "type": "reactivate_leads",
+          "strategy": {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        }
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "executive": {
+        "best": {
+          "id": "strategy-3",
+          "name": "efficiency",
+          "revenue": 60,
+          "cost": 10,
+          "risk": 0.05,
+          "connector": "whatsapp",
+          "action": "reactivate_leads",
+          "profit": 50,
+          "roi": 5,
+          "confidence": 0.9675,
+          "analysis": {
+            "simulation": {
+              "scenarios": {
+                "optimistic": {
+                  "revenue": 1.5,
+                  "cost": 1,
+                  "risk": 0.2
+                },
+                "realistic": {
+                  "revenue": 1,
+                  "cost": 1,
+                  "risk": 0.4
+                },
+                "pessimistic": {
+                  "revenue": 0.6,
+                  "cost": 1.2,
+                  "risk": 0.7
+                }
+              },
+              "score": 0.67
+            },
+            "risk": 0.3,
+            "valueScore": 0.47
+          },
+          "score": 0.6852,
+          "scoreBreakdown": {
+            "economic": 0.6594,
+            "executive": 0.7627,
+            "revenue": 0.5,
+            "roi": 1,
+            "confidence": 0.9675,
+            "riskPenalty": 0.05,
+            "weights": {
+              "revenue": 0.35,
+              "roi": 0.25,
+              "confidence": 0.25,
+              "risk": 0.15,
+              "executive": 0.25
+            }
+          }
+        },
+        "ranked": [
+          {
+            "id": "strategy-3",
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads",
+            "profit": 50,
+            "roi": 5,
+            "confidence": 0.9675,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6852,
+            "scoreBreakdown": {
+              "economic": 0.6594,
+              "executive": 0.7627,
+              "revenue": 0.5,
+              "roi": 1,
+              "confidence": 0.9675,
+              "riskPenalty": 0.05,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-2",
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline",
+            "profit": 70,
+            "roi": 3.5,
+            "confidence": 0.9025,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6695,
+            "scoreBreakdown": {
+              "economic": 0.6406,
+              "executive": 0.756,
+              "revenue": 0.75,
+              "roi": 0.7,
+              "confidence": 0.9025,
+              "riskPenalty": 0.15,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          },
+          {
+            "id": "strategy-1",
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign",
+            "profit": 80,
+            "roi": 2,
+            "confidence": 0.8049999999999999,
+            "analysis": {
+              "simulation": {
+                "scenarios": {
+                  "optimistic": {
+                    "revenue": 1.5,
+                    "cost": 1,
+                    "risk": 0.2
+                  },
+                  "realistic": {
+                    "revenue": 1,
+                    "cost": 1,
+                    "risk": 0.4
+                  },
+                  "pessimistic": {
+                    "revenue": 0.6,
+                    "cost": 1.2,
+                    "risk": 0.7
+                  }
+                },
+                "score": 0.67
+              },
+              "risk": 0.3,
+              "valueScore": 0.47
+            },
+            "score": 0.6289,
+            "scoreBreakdown": {
+              "economic": 0.6062,
+              "executive": 0.697,
+              "revenue": 1,
+              "roi": 0.4,
+              "confidence": 0.805,
+              "riskPenalty": 0.3,
+              "weights": {
+                "revenue": 0.35,
+                "roi": 0.25,
+                "confidence": 0.25,
+                "risk": 0.15,
+                "executive": 0.25
+              }
+            }
+          }
+        ],
+        "all": [
+          {
+            "name": "growth",
+            "revenue": 120,
+            "cost": 40,
+            "risk": 0.3,
+            "connector": "ads",
+            "action": "optimize_campaign"
+          },
+          {
+            "name": "balanced",
+            "revenue": 90,
+            "cost": 20,
+            "risk": 0.15,
+            "connector": "crm",
+            "action": "update_lead_pipeline"
+          },
+          {
+            "name": "efficiency",
+            "revenue": 60,
+            "cost": 10,
+            "risk": 0.05,
+            "connector": "whatsapp",
+            "action": "reactivate_leads"
+          }
+        ],
+        "weights": {
+          "revenue": 0.35,
+          "roi": 0.25,
+          "confidence": 0.25,
+          "risk": 0.15,
+          "executive": 0.25
+        },
+        "evaluatedAt": "2026-06-01T02:40:48.184Z",
+        "council": {
+          "agents": [
+            {
+              "role": "CEO",
+              "weight": 0.28,
+              "focus": "strategic_growth"
+            },
+            {
+              "role": "CFO",
+              "weight": 0.24,
+              "focus": "profit_and_cash_efficiency"
+            },
+            {
+              "role": "CMO",
+              "weight": 0.2,
+              "focus": "market_expansion"
+            },
+            {
+              "role": "COO",
+              "weight": 0.16,
+              "focus": "operational_feasibility"
+            },
+            {
+              "role": "CTO",
+              "weight": 0.12,
+              "focus": "technical_complexity"
+            }
+          ],
+          "reviews": [
+            {
+              "strategyId": "strategy-1",
+              "strategyName": "growth",
+              "executiveScore": 0.697,
+              "recommendation": "approve_with_controls",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.8583,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.525,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.805,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.6067,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.605,
+                  "recommendation": "approve_with_controls"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-2",
+              "strategyName": "balanced",
+              "executiveScore": 0.756,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.7806,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.7458,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.5525,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.8728,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9025,
+                  "recommendation": "approve"
+                }
+              ]
+            },
+            {
+              "strategyId": "strategy-3",
+              "strategyName": "efficiency",
+              "executiveScore": 0.7627,
+              "recommendation": "approve",
+              "agents": [
+                {
+                  "role": "CEO",
+                  "focus": "strategic_growth",
+                  "weight": 0.28,
+                  "score": 0.6792,
+                  "recommendation": "approve_with_controls"
+                },
+                {
+                  "role": "CFO",
+                  "focus": "profit_and_cash_efficiency",
+                  "weight": 0.24,
+                  "score": 0.9425,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CMO",
+                  "focus": "market_expansion",
+                  "weight": 0.2,
+                  "score": 0.3925,
+                  "recommendation": "reject"
+                },
+                {
+                  "role": "COO",
+                  "focus": "operational_feasibility",
+                  "weight": 0.16,
+                  "score": 0.9483,
+                  "recommendation": "approve"
+                },
+                {
+                  "role": "CTO",
+                  "focus": "technical_complexity",
+                  "weight": 0.12,
+                  "score": 0.9675,
+                  "recommendation": "approve"
+                }
+              ]
+            }
+          ],
+          "generatedAt": "2026-06-01T02:40:48.176Z"
+        },
+        "trace": {
+          "type": "decision_trace",
+          "tenant": "demo_key",
+          "prompt": "criar plano para aumentar vendas de um ecommerce",
+          "selectedStrategy": "efficiency",
+          "score": 0.6852,
+          "confidence": 0.9675,
+          "councilRecommendation": "approve",
+          "ranked": [
+            {
+              "id": "strategy-3",
+              "name": "efficiency",
+              "score": 0.6852,
+              "revenue": 60,
+              "cost": 10,
+              "profit": 50,
+              "roi": 5,
+              "risk": 0.05,
+              "confidence": 0.9675
+            },
+            {
+              "id": "strategy-2",
+              "name": "balanced",
+              "score": 0.6695,
+              "revenue": 90,
+              "cost": 20,
+              "profit": 70,
+              "roi": 3.5,
+              "risk": 0.15,
+              "confidence": 0.9025
+            },
+            {
+              "id": "strategy-1",
+              "name": "growth",
+              "score": 0.6289,
+              "revenue": 120,
+              "cost": 40,
+              "profit": 80,
+              "roi": 2,
+              "risk": 0.3,
+              "confidence": 0.8049999999999999
+            }
+          ]
+        }
+      },
+      "business": {
+        "revenue": 11.562000000000001,
+        "cost": 4.4079999999999995,
+        "profit": 7.154000000000002,
+        "margin": 61.88
+      },
+      "memory": {
+        "size": 3
+      },
+      "timestamp": "2026-06-01T02:40:48.192Z"
+    },
+    "time": "2026-06-01T02:40:48.192Z"
+  },
+  {
+    "id": 1780279345535,
+    "tenant": "demo_key",
+    "provider": "openai",
+    "prompt": "crescer vendas ecommerce",
+    "latency": 200,
+    "cost": 1,
+    "revenue": 2.5,
+    "profit": 1.5,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": true
+        },
+        "economics": {
+          "impact": 0.802358933908115,
+          "cost": 0.42853059183775777,
+          "risk": 0.1597851962404275,
+          "score": 0.2140431458299297
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "executed"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "growth",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.2443458454913947,
+          "revenueTrend": 0.5322097320759991,
+          "riskLevel": 0.2712238970509604,
+          "opportunityScore": 0.5016767146254066
+        },
+        "observation": {
+          "anomalies": true,
+          "opportunities": false,
+          "risk": false
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": true
+        },
+        "learning": {
+          "memorySize": 1,
+          "last": {
+            "success": true,
+            "impact": 0.87656518856451,
+            "timestamp": 1780279345532
+          }
+        }
+      },
+      "execution": {
+        "executed": true,
+        "connector": "internal",
+        "action": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        },
+        "timestamp": "2026-06-01T02:02:25.532Z"
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "business": {
+        "revenue": 9.062000000000001,
+        "cost": 3.408,
+        "profit": 5.654000000000002,
+        "margin": 62.39
+      },
+      "memory": {
+        "size": 1
+      },
+      "timestamp": "2026-06-01T02:02:25.535Z"
+    },
+    "time": "2026-06-01T02:02:25.535Z"
+  },
+  {
+    "id": 1780279125700,
+    "tenant": "demo_key",
+    "provider": "openai",
+    "prompt": "aumentar vendas ecommerce",
+    "latency": 200,
+    "cost": 1,
+    "revenue": 2.5,
+    "profit": 1.5,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": true
+        },
+        "economics": {
+          "impact": 0.054798576698683155,
+          "cost": 0.39833962938831846,
+          "risk": 0.3033046260311701,
+          "score": -0.6468456787208055
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "executed"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "unknown",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.2205437652806428,
+          "revenueTrend": 0.5645040771556431,
+          "riskLevel": 0.08300968898143113,
+          "opportunityScore": 0.5718575826145509
+        },
+        "observation": {
+          "anomalies": true,
+          "opportunities": false,
+          "risk": false
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": true
+        },
+        "learning": {
+          "memorySize": 2,
+          "last": {
+            "success": true,
+            "impact": 0.5886077792803575,
+            "timestamp": 1780279125700
+          }
+        }
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-06-01T01:58:45.700Z"
+    },
+    "time": "2026-06-01T01:58:45.700Z"
+  },
+  {
+    "id": 1780278752512,
+    "tenant": "demo_key",
+    "provider": "openai",
+    "prompt": "aumentar vendas ecommerce",
+    "latency": 200,
+    "cost": 1,
+    "revenue": 2.5,
+    "profit": 1.5,
+    "coreResult": {
+      "platform": {
+        "policy": {
+          "approved": true
+        },
+        "economics": {
+          "impact": 0.770043876573766,
+          "cost": 0.045678284957669346,
+          "risk": 0.30486612643549504,
+          "score": 0.41949946518060166
+        },
+        "health": {
+          "status": "stable",
+          "actions": []
+        },
+        "status": "executed"
+      },
+      "autopilot": {
+        "diagnostic": {
+          "industry": "sales",
+          "goal": "unknown",
+          "problemType": "generic"
+        },
+        "problem": {
+          "causes": [
+            "ineficiência operacional",
+            "baixa automação"
+          ],
+          "levers": [
+            "automação",
+            "otimização",
+            "IA aplicada"
+          ],
+          "risks": [
+            "adoção",
+            "complexidade"
+          ],
+          "variables": [
+            "custo",
+            "tempo",
+            "qualidade"
+          ]
+        },
+        "strategies": {
+          "openai": "[OPENAI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "claude": "[CLAUDE MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}",
+          "gemini": "[GEMINI MOCK] estratégia: {\"causes\":[\"ineficiência operacional\",\"baixa automação\"],\"levers\":[\"automação\",\"otimização\",\"IA aplicada\"],\"risks\":[\"adoção\",\"complexidade\"],\"variables\":[\"custo\",\"tempo\",\"qualidade\"]}"
+        },
+        "simulation": {
+          "openai": {
+            "impact": 0.7,
+            "cost": 0.5,
+            "risk": 0.3
+          },
+          "claude": {
+            "impact": 0.8,
+            "cost": 0.6,
+            "risk": 0.4
+          },
+          "gemini": {
+            "impact": 0.6,
+            "cost": 0.3,
+            "risk": 0.2
+          }
+        },
+        "final": {
+          "plan": "plano otimizado híbrido",
+          "steps": [
+            "aplicar automação base",
+            "reduzir custo operacional",
+            "implementar IA incremental"
+          ],
+          "confidence": 0.86
+        }
+      },
+      "selfOperating": {
+        "state": {
+          "healthScore": 0.8034029127263334,
+          "revenueTrend": 0.13547875550318,
+          "riskLevel": 0.023452867295604474,
+          "opportunityScore": 0.8246048650305666
+        },
+        "observation": {
+          "anomalies": false,
+          "opportunities": true,
+          "risk": false
+        },
+        "decision": {
+          "type": "growth"
+        },
+        "execution": {
+          "status": "executed",
+          "action": {
+            "type": "growth"
+          },
+          "result": true
+        },
+        "learning": {
+          "memorySize": 1,
+          "last": {
+            "success": true,
+            "impact": 0.9241157476696187,
+            "timestamp": 1780278752503
+          }
+        }
+      },
+      "ecosystem": {
+        "status": "self_healed",
+        "results": [
+          {
+            "issue": "costSpike",
+            "cause": "uso excessivo de IA cara",
+            "fix": {
+              "appliedFix": "route to cheaper provider",
+              "status": "system adjusted"
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-06-01T01:52:32.504Z"
+    },
+    "time": "2026-06-01T01:52:32.512Z"
+  },
+  {
+    "id": 1780276222421,
+    "tenant": "demo_key",
+    "provider": "gemini",
+    "prompt": "teste sistema",
+    "latency": 200,
+    "cost": 0.4,
+    "revenue": 1.5,
+    "profit": 1.1,
+    "time": "2026-06-01T01:10:22.421Z"
+  },
+  {
+    "id": 1780268820919,
+    "tenant": "demo_key",
+    "provider": "openai",
+    "prompt": "teste SaaS",
+    "latency": 200,
+    "cost": 1,
+    "revenue": 2.5,
+    "profit": 1.5,
+    "time": "2026-05-31T23:07:00.919Z"
+  },
+  {
+    "id": 1780191598833,
+    "provider": "OpenAI",
+    "prompt": "crie uma api node",
+    "result": "\n\n✅ EXECUTION SUCCESSFUL\n\nAI PROVIDER:\nOpenAI\n\nAI TASK:\ncrie uma api node\n\nRESULT:\n\nfunction enterpriseAI(){\n\n  return {\n\n    status:\"success\",\n\n    optimization:\"97%\",\n\n    revenue:\"$12,400\"\n\n  };\n\n}\n\nSYSTEM:\n\n• latency: 241ms\n• estimated cost: $0.004\n• projected revenue: $0.031\n\n🚀 AI Revenue OS operational.\n\n",
+    "latency": "241ms",
+    "cost": "0.004",
+    "revenue": "0.031",
+    "time": "30/05/2026, 22:39:58"
+  },
+  {
+    "id": 1780190387043,
+    "provider": "OpenAI",
+    "prompt": "teste enterprise",
+    "result": "\n\n✅ EXECUTION SUCCESSFUL\n\nAI PROVIDER:\nOpenAI\n\nAI TASK:\nteste enterprise\n\nRESULT:\n\nfunction enterpriseAI(){\n\nreturn {\n\nstatus:\"success\",\n\noptimization:\"97%\",\n\nrevenue:\"$12,400\"\n\n};\n\n}\n\nSYSTEM:\n\n• latency: 241ms\n• estimated cost: $0.004\n• projected revenue: $0.031\n\n🚀 AI Revenue OS operational.\n\n",
+    "latency": "241ms",
+    "cost": "0.004",
+    "revenue": "0.031",
+    "time": "30/05/2026, 22:19:47"
+  }
+]

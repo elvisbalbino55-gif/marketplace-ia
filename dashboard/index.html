@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI REVENUE DASHBOARD</title>
+  <style>
+    body { font-family: Arial; background:#0f0f0f; color:white; padding:20px; }
+    .card { background:#1c1c1c; padding:15px; margin:10px 0; border-radius:10px; }
+    h1 { color:#00ffcc; }
+  </style>
+</head>
+<body>
+
+<h1>🚀 AI REVENUE DASHBOARD</h1>
+
+<div class="card" id="system"></div>
+<div class="card" id="leaders"></div>
+
+<script>
+fetch('/api/dashboard')
+.then(r=>r.json())
+.then(data=>{
+  document.getElementById('system').innerHTML =
+    "<h3>SYSTEM</h3><pre>"+JSON.stringify(data.system,null,2)+"</pre>";
+
+  document.getElementById('leaders').innerHTML =
+    "<h3>LEADERBOARD</h3><pre>"+JSON.stringify(data.leaderboard,null,2)+"</pre>";
+});
+</script>
+
+</body>
+</html>

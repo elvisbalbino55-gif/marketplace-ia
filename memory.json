@@ -1,0 +1,290 @@
+[
+  {
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "provider": "gemini",
+    "plan": {
+      "plan": "plano otimizado híbrido",
+      "steps": [
+        "aplicar automação base",
+        "reduzir custo operacional",
+        "implementar IA incremental"
+      ],
+      "confidence": 0.86
+    },
+    "timestamp": "2026-06-01T03:00:03.161Z"
+  },
+  {
+    "type": "execution_trace",
+    "selectedStrategyId": "strategy-3",
+    "selectedStrategy": "efficiency",
+    "status": "planned_and_dispatched",
+    "steps": [
+      {
+        "id": "step-1",
+        "connector": "whatsapp",
+        "type": "reactivate_leads",
+        "status": "whatsapp_ready"
+      },
+      {
+        "id": "step-2",
+        "connector": "crm",
+        "type": "update_lead_stage",
+        "status": "crm_updated"
+      },
+      {
+        "id": "step-3",
+        "connector": "stripe",
+        "type": "prepare_offer",
+        "status": "stripe_ready"
+      },
+      {
+        "id": "step-4",
+        "connector": "internal",
+        "type": "monitor_roi",
+        "status": "internal_executed"
+      }
+    ],
+    "memoryType": "execution_trace",
+    "timestamp": "2026-06-01T03:00:03.157Z"
+  },
+  {
+    "type": "decision_trace",
+    "tenant": "demo_key",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "selectedStrategy": "efficiency",
+    "score": 0.6852,
+    "confidence": 0.9675,
+    "councilRecommendation": "approve",
+    "ranked": [
+      {
+        "id": "strategy-3",
+        "name": "efficiency",
+        "score": 0.6852,
+        "revenue": 60,
+        "cost": 10,
+        "profit": 50,
+        "roi": 5,
+        "risk": 0.05,
+        "confidence": 0.9675
+      },
+      {
+        "id": "strategy-2",
+        "name": "balanced",
+        "score": 0.6695,
+        "revenue": 90,
+        "cost": 20,
+        "profit": 70,
+        "roi": 3.5,
+        "risk": 0.15,
+        "confidence": 0.9025
+      },
+      {
+        "id": "strategy-1",
+        "name": "growth",
+        "score": 0.6289,
+        "revenue": 120,
+        "cost": 40,
+        "profit": 80,
+        "roi": 2,
+        "risk": 0.3,
+        "confidence": 0.8049999999999999
+      }
+    ],
+    "memoryType": "decision_trace",
+    "timestamp": "2026-06-01T03:00:03.154Z"
+  },
+  {
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "provider": "gemini",
+    "plan": {
+      "plan": "plano otimizado híbrido",
+      "steps": [
+        "aplicar automação base",
+        "reduzir custo operacional",
+        "implementar IA incremental"
+      ],
+      "confidence": 0.86
+    },
+    "timestamp": "2026-06-01T02:48:46.414Z"
+  },
+  {
+    "type": "decision_trace",
+    "tenant": "demo_key",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "selectedStrategy": "efficiency",
+    "score": 0.6852,
+    "confidence": 0.9675,
+    "councilRecommendation": "approve",
+    "ranked": [
+      {
+        "id": "strategy-3",
+        "name": "efficiency",
+        "score": 0.6852,
+        "revenue": 60,
+        "cost": 10,
+        "profit": 50,
+        "roi": 5,
+        "risk": 0.05,
+        "confidence": 0.9675
+      },
+      {
+        "id": "strategy-2",
+        "name": "balanced",
+        "score": 0.6695,
+        "revenue": 90,
+        "cost": 20,
+        "profit": 70,
+        "roi": 3.5,
+        "risk": 0.15,
+        "confidence": 0.9025
+      },
+      {
+        "id": "strategy-1",
+        "name": "growth",
+        "score": 0.6289,
+        "revenue": 120,
+        "cost": 40,
+        "profit": 80,
+        "roi": 2,
+        "risk": 0.3,
+        "confidence": 0.8049999999999999
+      }
+    ],
+    "memoryType": "decision_trace",
+    "timestamp": "2026-06-01T02:48:46.411Z"
+  },
+  {
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "provider": "gemini",
+    "plan": {
+      "plan": "plano otimizado híbrido",
+      "steps": [
+        "aplicar automação base",
+        "reduzir custo operacional",
+        "implementar IA incremental"
+      ],
+      "confidence": 0.86
+    },
+    "timestamp": "2026-06-01T02:41:57.978Z"
+  },
+  {
+    "type": "decision_trace",
+    "tenant": "demo_key",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "selectedStrategy": "efficiency",
+    "score": 0.6852,
+    "confidence": 0.9675,
+    "councilRecommendation": "approve",
+    "ranked": [
+      {
+        "id": "strategy-3",
+        "name": "efficiency",
+        "score": 0.6852,
+        "revenue": 60,
+        "cost": 10,
+        "profit": 50,
+        "roi": 5,
+        "risk": 0.05,
+        "confidence": 0.9675
+      },
+      {
+        "id": "strategy-2",
+        "name": "balanced",
+        "score": 0.6695,
+        "revenue": 90,
+        "cost": 20,
+        "profit": 70,
+        "roi": 3.5,
+        "risk": 0.15,
+        "confidence": 0.9025
+      },
+      {
+        "id": "strategy-1",
+        "name": "growth",
+        "score": 0.6289,
+        "revenue": 120,
+        "cost": 40,
+        "profit": 80,
+        "roi": 2,
+        "risk": 0.3,
+        "confidence": 0.8049999999999999
+      }
+    ],
+    "memoryType": "decision_trace",
+    "timestamp": "2026-06-01T02:41:57.976Z"
+  },
+  {
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "provider": "gemini",
+    "plan": {
+      "plan": "plano otimizado híbrido",
+      "steps": [
+        "aplicar automação base",
+        "reduzir custo operacional",
+        "implementar IA incremental"
+      ],
+      "confidence": 0.86
+    },
+    "timestamp": "2026-06-01T02:40:48.192Z"
+  },
+  {
+    "type": "decision_trace",
+    "tenant": "demo_key",
+    "prompt": "criar plano para aumentar vendas de um ecommerce",
+    "selectedStrategy": "efficiency",
+    "score": 0.6852,
+    "confidence": 0.9675,
+    "councilRecommendation": "approve",
+    "ranked": [
+      {
+        "id": "strategy-3",
+        "name": "efficiency",
+        "score": 0.6852,
+        "revenue": 60,
+        "cost": 10,
+        "profit": 50,
+        "roi": 5,
+        "risk": 0.05,
+        "confidence": 0.9675
+      },
+      {
+        "id": "strategy-2",
+        "name": "balanced",
+        "score": 0.6695,
+        "revenue": 90,
+        "cost": 20,
+        "profit": 70,
+        "roi": 3.5,
+        "risk": 0.15,
+        "confidence": 0.9025
+      },
+      {
+        "id": "strategy-1",
+        "name": "growth",
+        "score": 0.6289,
+        "revenue": 120,
+        "cost": 40,
+        "profit": 80,
+        "roi": 2,
+        "risk": 0.3,
+        "confidence": 0.8049999999999999
+      }
+    ],
+    "memoryType": "decision_trace",
+    "timestamp": "2026-06-01T02:40:48.185Z"
+  },
+  {
+    "prompt": "crescer vendas ecommerce",
+    "provider": "openai",
+    "plan": {
+      "plan": "plano otimizado hÃ­brido",
+      "steps": [
+        "aplicar automaÃ§Ã£o base",
+        "reduzir custo operacional",
+        "implementar IA incremental"
+      ],
+      "confidence": 0.86
+    },
+    "timestamp": "2026-06-01T02:02:25.534Z"
+  }
+]

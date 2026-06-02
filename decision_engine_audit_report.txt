@@ -1,0 +1,9 @@
+﻿DECISION ENGINE FILES:
+C:\Users\Davisaniel\Desktop\marketplace-ia\gateway-api\src\core\executive\decisionEngine.js
+C:\Users\Davisaniel\Desktop\marketplace-ia\gateway-api\src\decision\decisionEngine.js
+C:\Users\Davisaniel\Desktop\marketplace-ia\gateway-api\src\economy\decisionEngine.js
+
+USAGE MAP:
+C:\Users\Davisaniel\Desktop\marketplace-ia\gateway-api\src\core\core.js
+C:\Users\Davisaniel\Desktop\marketplace-ia\gateway-api\src\core\index.js
+C:\Users\Davisaniel\Desktop\marketplace-ia\gateway-api\src\decision\decisionEngine.js
