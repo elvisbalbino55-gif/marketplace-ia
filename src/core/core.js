@@ -1,10 +1,11 @@
-﻿import { autopilot } from "../autopilot/index.js";
+import { autopilot } from "../autopilot/index.js";
 import { runCycle } from "../selfOperating/loop.js";
 import { ecosystemLoop } from "../ecosystem/engine.js";
 import { platformEngine } from "../platform/engine.js";
 import { realExecution } from "../execution/realExecution.js";
 import { saveMemory } from "../memory/index.js";
 import { calculateBusinessMetrics } from "../economy/businessMetrics.js";
+import { policyRouter } from "../decision/policyRouter.js";
 
 export async function core(payload){
 
@@ -14,11 +15,14 @@ export async function core(payload){
 
   const executive = policyRouter({
     ...payload,
-    tenant: payload.tenant || payload.tenantId
+    tenant: payload.tenant || payload.tenantId,
+    autopilotResult,
+    policy: payload.policy || "balanced"
   });
 
   const execution = await realExecution({
-    selectedStrategy: executive.best
+    selectedStrategy: executive.best,
+    payload
   });
 
   const selfOperating = await runCycle({
@@ -35,11 +39,19 @@ export async function core(payload){
 
   const memorySize = saveMemory({
     prompt: payload.prompt,
-    provider: payload.provider,
-    executive: executive.best
+    provider: executive.best?.provider,
+    executive: executive.best,
+    timestamp: new Date().toISOString()
+  });
+
+  const metrics = calculateBusinessMetrics({
+    execution,
+    cost: execution?.cost || 0,
+    impact: executive.best?.qualityScore || 0
   });
 
   return {
+    status: "success",
     platform,
     autopilot: autopilotResult,
     executive,
@@ -47,10 +59,7 @@ export async function core(payload){
     selfOperating,
     ecosystem,
     memory:{ size: memorySize },
+    metrics,
     timestamp: new Date().toISOString()
   };
 }
-
-
-
-
